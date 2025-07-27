@@ -103,7 +103,7 @@
     "unified": "11.0.5",
     "vnopts": "2.0.0",
     "wcwidth": "1.0.1",
-    "yaml-unist-parser": "2.0.1"
+    "yaml-unist-parser": "2.0.5"
   },
   "devDependencies": {
     "@babel/generator": "7.28.0",
