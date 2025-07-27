@@ -1549,6 +1549,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@keyv/serialize@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@keyv/serialize@npm:1.1.0"
+  checksum: 84533dc994ff1b9585fb7593542f1d7a9746b843c13c9341a8d2feb2e1fc0136d42e0146f8ff751ad9decc64da4792538e270b95a126f6d0dbb48e349ee462ab
+  languageName: node
+  linkType: hard
+
 "@mdn/browser-compat-data@npm:^5.2.34, @mdn/browser-compat-data@npm:^5.2.47":
   version: 5.3.0
   resolution: "@mdn/browser-compat-data@npm:5.3.0"
@@ -2615,6 +2622,16 @@ __metadata:
     tar: ^6.1.11
     unique-filename: ^3.0.0
   checksum: 385756781e1e21af089160d89d7462b7ed9883c978e848c7075b90b73cb823680e66092d61513050164588387d2ca87dd6d910e28d64bc13a9ac82cd8580c796
+  languageName: node
+  linkType: hard
+
+"cacheable@npm:^1.10.3":
+  version: 1.10.3
+  resolution: "cacheable@npm:1.10.3"
+  dependencies:
+    hookified: ^1.10.0
+    keyv: ^5.4.0
+  checksum: 5b59140b9aad35a78556661101c8274c315e001f4521003a88f5d6865aa62c4000e63bedbffb79444c4e09097679efef04823ba88585ae7c19eb108b08e9e5b1
   languageName: node
   linkType: hard
 
@@ -4336,7 +4353,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"file-entry-cache@npm:6.0.1, file-entry-cache@npm:^6.0.1":
+"file-entry-cache@npm:10.1.3":
+  version: 10.1.3
+  resolution: "file-entry-cache@npm:10.1.3"
+  dependencies:
+    flat-cache: ^6.1.12
+  checksum: 5fbd9d50658c5eb9611f0be426a03b7953edf645fbedc77cca514105ee0e6e0fff427b82ba9cad5cca709dfc27b0b03f0dd42691ba2fad2a401f9b56e497d335
+  languageName: node
+  linkType: hard
+
+"file-entry-cache@npm:^6.0.1":
   version: 6.0.1
   resolution: "file-entry-cache@npm:6.0.1"
   dependencies:
@@ -4411,10 +4437,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"flatted@npm:^3.1.0":
-  version: 3.2.7
-  resolution: "flatted@npm:3.2.7"
-  checksum: 427633049d55bdb80201c68f7eb1cbd533e03eac541f97d3aecab8c5526f12a20ccecaeede08b57503e772c769e7f8680b37e8d482d1e5f8d7e2194687f9ea35
+"flat-cache@npm:^6.1.12":
+  version: 6.1.12
+  resolution: "flat-cache@npm:6.1.12"
+  dependencies:
+    cacheable: ^1.10.3
+    flatted: ^3.3.3
+    hookified: ^1.10.0
+  checksum: 9f6d55116a6380b73034d8d955a0f3960fded49b9ff7e9bfa8824a3946fac809653f2c1cd99c9139cea12f7fc0ffec56ce977abe7c1044b3716c22fb613eb555
+  languageName: node
+  linkType: hard
+
+"flatted@npm:^3.1.0, flatted@npm:^3.3.3":
+  version: 3.3.3
+  resolution: "flatted@npm:3.3.3"
+  checksum: 8c96c02fbeadcf4e8ffd0fa24983241e27698b0781295622591fc13585e2f226609d95e422bcf2ef044146ffacb6b68b1f20871454eddf75ab3caa6ee5f4a1fe
   languageName: node
   linkType: hard
 
@@ -4895,6 +4932,13 @@ __metadata:
   dependencies:
     hermes-estree: 0.15.0
   checksum: 6c06a57a3998edd8c3aff05bbacdc8ec80f930360fa82ab75021b4b20edce8d76d30232babb7d6e7a0fcb758b0b36d7ee0f25936c9accf0b977542a079cb39cf
+  languageName: node
+  linkType: hard
+
+"hookified@npm:^1.10.0":
+  version: 1.11.0
+  resolution: "hookified@npm:1.11.0"
+  checksum: 237189d87d3ebafacdb3b27ecdbb7060d359a16ccf6d27896920e6f8b53890c831ff5bafc2224bfcd6562a1effdca28a3edf819af46cf30cc58c142f1ce9b67d
   languageName: node
   linkType: hard
 
@@ -6228,6 +6272,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"keyv@npm:^5.4.0":
+  version: 5.4.0
+  resolution: "keyv@npm:5.4.0"
+  dependencies:
+    "@keyv/serialize": ^1.1.0
+  checksum: 638f0b2f5ffea39354628a05d6ea2817112b90f2099ce279560393bb208d085433ee413839398c010c3dff606b0ea392c5f6de7a23ffbefb6246806bda29ce06
+  languageName: node
+  linkType: hard
+
 "kleur@npm:^3.0.3":
   version: 3.0.3
   resolution: "kleur@npm:3.0.3"
@@ -7533,7 +7586,7 @@ __metadata:
     execa: 7.1.1
     fast-glob: 3.2.12
     fast-json-stable-stringify: 2.1.0
-    file-entry-cache: 6.0.1
+    file-entry-cache: 10.1.3
     find-cache-dir: 6.0.0
     find-parent-dir: 0.3.1
     flow-parser: 0.277.1
