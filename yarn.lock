@@ -2703,7 +2703,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:5.3.0, chalk@npm:^5.2.0, chalk@npm:^5.3.0":
+"chalk@npm:5.3.0, chalk@npm:^5.2.0":
   version: 5.3.0
   resolution: "chalk@npm:5.3.0"
   checksum: 623922e077b7d1e9dedaea6f8b9e9352921f8ae3afe739132e0e00c275971bdd331268183b2628cf4ab1727c45ea1f28d7e24ac23ce1db1eb653c414ca8a5a80
@@ -7589,7 +7589,7 @@ __metadata:
     typescript: 5.8.3
     unicode-regex: 4.1.2
     unified: 11.0.5
-    vnopts: 2.0.0
+    vnopts: 2.0.2
     wcwidth: 1.0.1
     yaml-unist-parser: 2.0.1
   bin:
@@ -9315,14 +9315,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vnopts@npm:2.0.0":
-  version: 2.0.0
-  resolution: "vnopts@npm:2.0.0"
+"vnopts@npm:2.0.2":
+  version: 2.0.2
+  resolution: "vnopts@npm:2.0.2"
   dependencies:
-    chalk: ^5.3.0
     leven: ^4.0.0
-    tslib: ^2.6.0
-  checksum: 3abf34620c6d5f99ed9e9b461feb7f263724f3ab09ac2066d55aa9eea8f13267f9f54205ed032a9a84bac49510370935db9f611b341587989969a8f25b543901
+    picocolors: ^1.1.1
+  checksum: e92a92b0296f028b247b49fe3d697c31dd0f635f3823b106df975187b3a88cc36ff7164d179cfeae7b624fe00b125f54d34cede06580cfc454a19192f5438691
   languageName: node
   linkType: hard
 
