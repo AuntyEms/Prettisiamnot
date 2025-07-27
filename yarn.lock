@@ -3536,14 +3536,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-prettier@npm:8.9.0":
-  version: 8.9.0
-  resolution: "eslint-config-prettier@npm:8.9.0"
+"eslint-config-prettier@npm:10.1.8":
+  version: 10.1.8
+  resolution: "eslint-config-prettier@npm:10.1.8"
   peerDependencies:
     eslint: ">=7.0.0"
   bin:
     eslint-config-prettier: bin/cli.js
-  checksum: a675d0dabd76b700ef2d062b5ec6a634e105a8e8c070f95281fd2ccb614527fac60b4c758132058c50f0521fd19313f1f5be45ce9ebf081f2e5f77ae6eb7d8db
+  checksum: 9140e19f78f0dbc888b160bb72b85f8043bada7b12a548faa56cea0ba74f8ef16653250ffd014d85d9a376a88c4941c96a3cdc9d39a07eb3def6967166635bd8
   languageName: node
   linkType: hard
 
@@ -7064,7 +7064,7 @@ __metadata:
     esbuild-visualizer: 0.4.1
     escape-string-regexp: 5.0.0
     eslint: 8.46.0
-    eslint-config-prettier: 8.9.0
+    eslint-config-prettier: 10.1.8
     eslint-formatter-friendly: 7.0.0
     eslint-plugin-compat: 4.1.4
     eslint-plugin-import: 2.28.0
