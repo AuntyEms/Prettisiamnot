@@ -1104,28 +1104,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@glimmer/reference@npm:0.94.8":
-  version: 0.94.8
-  resolution: "@glimmer/reference@npm:0.94.8"
+"@glimmer/reference@npm:0.94.9":
+  version: 0.94.9
+  resolution: "@glimmer/reference@npm:0.94.9"
   dependencies:
     "@glimmer/global-context": 0.93.4
     "@glimmer/interfaces": 0.94.6
     "@glimmer/util": 0.94.8
-    "@glimmer/validator": 0.94.8
-  checksum: 45709f1de4059dd6c56c64f7a9ae575042a598ec185c37b01fcc5876a86e177ad2051561c351970a4b37c064b51a25479c6fbf86d28955a29231c02b8228653b
+    "@glimmer/validator": 0.95.0
+  checksum: 3b933938b368e1632dfb88aed9b7febb592308f57d1a7a8cdce3520e7252037c7fcbf0fdac29e90e81b32ae5a5ea9dd0ce28fe3430de126ddc8c00cc2c15f17e
   languageName: node
   linkType: hard
 
-"@glimmer/syntax@npm:0.94.9":
-  version: 0.94.9
-  resolution: "@glimmer/syntax@npm:0.94.9"
+"@glimmer/syntax@npm:0.95.0":
+  version: 0.95.0
+  resolution: "@glimmer/syntax@npm:0.95.0"
   dependencies:
     "@glimmer/interfaces": 0.94.6
     "@glimmer/util": 0.94.8
     "@glimmer/wire-format": 0.94.8
-    "@handlebars/parser": ~2.0.0
+    "@handlebars/parser": ~2.2.0
     simple-html-tokenizer: ^0.5.11
-  checksum: c823f4e97014f27337d592c0b3c304f9e14b0954739c609554f5dece4a0785d50783ecc5d2bd1cece01a34e16254127505a33aa73b72663df3a644aba4d2d34d
+  checksum: a415562ace7127e817e877105767b7055442b8df1c6601276b14a4d9d8841d664189d965b36ebaa159dd848a3528269ad117085f26c8760713afc91e89786033
   languageName: node
   linkType: hard
 
@@ -1138,13 +1138,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@glimmer/validator@npm:0.94.8":
-  version: 0.94.8
-  resolution: "@glimmer/validator@npm:0.94.8"
+"@glimmer/validator@npm:0.95.0":
+  version: 0.95.0
+  resolution: "@glimmer/validator@npm:0.95.0"
   dependencies:
     "@glimmer/global-context": 0.93.4
     "@glimmer/interfaces": 0.94.6
-  checksum: 93f98a775a436a1d291b10ebe44148189ceb435436b38386bf10f13828da25ccc4f9d2564ff21feebf2e192d7153435d1ff61b3efa4d99f15f04f72b4fefe3c2
+  checksum: 3f0b44486a05aef676055819a844b93ac42334f4b952d1469f788c1467772442e618e20f812a27fe639378943a8ea121efa751ddc6992b514a841dc438205ca6
   languageName: node
   linkType: hard
 
@@ -1157,10 +1157,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@handlebars/parser@npm:~2.0.0":
-  version: 2.0.0
-  resolution: "@handlebars/parser@npm:2.0.0"
-  checksum: add32d6678b18db73fb88266138bc358abf94c255f4464b936b5b66e3108205c6cc3b611a726e0a691633552b94c0f9f65aed43fd4c51ecbbfb562179c967d88
+"@handlebars/parser@npm:~2.2.0":
+  version: 2.2.1
+  resolution: "@handlebars/parser@npm:2.2.1"
+  checksum: 0c6ac0b96b6b0010203c3e995b2b7d022bf3aefbe6901b6619d046d928b489ff911c072cb10bc267ec8317977247731dbb609b3f53c9bcf68c93e3f1f48830dc
   languageName: node
   linkType: hard
 
@@ -7669,8 +7669,8 @@ __metadata:
     "@babel/parser": 7.28.0
     "@babel/types": 7.28.2
     "@esbuild-plugins/node-modules-polyfill": 0.2.2
-    "@glimmer/reference": 0.94.8
-    "@glimmer/syntax": 0.94.9
+    "@glimmer/reference": 0.94.9
+    "@glimmer/syntax": 0.95.0
     "@iarna/toml": 2.2.5
     "@prettier/is-es5-identifier-name": 0.2.0
     "@prettier/parse-srcset": 3.0.0
